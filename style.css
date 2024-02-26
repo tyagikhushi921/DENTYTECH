@@ -1,0 +1,116 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+ #main{
+    height: 100%;
+    width: 100%;
+    background-color:  white
+ }
+ #nav{
+    width: 1000;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+ }
+ #nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+ #nav h3{
+    font-size: 16px;
+
+    text-transform: capitalize;
+    border: 1.5px solid black;
+    padding:  5px 8px;
+    border-radius: 50px;
+ }
+ i{
+    border: 1.5px solid black;
+    padding:  5px 8px;
+    border-radius: 50px;
+ }
+#nav h1{
+    text-transform:  uppercase;
+    font-weight: 200;
+    font-size: 22px;
+   
+     
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+     
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#btn1{
+    background-color: white;
+}
+#orng{
+    background-color:  orangered;
+    color: white;
+}
+#text{position: absolute;
+    font-size: 140px;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+
+
+}
+img{
+    height: 430px;
+    width: 370px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#leftbtn{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 17px;
+}
+#rightbtn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 17px ;
+    text-transform: capitalize;
+}
+.remixtags{
+    position: absolute;
+    bottom: 9%;
+    right: 9%;
+}
